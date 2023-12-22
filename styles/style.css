@@ -151,3 +151,45 @@ a {
 	align-self: flex-end;
 	font-weight: 800;
 }
+
+.call-box {
+	background-color: #3882f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px 0;
+	color: #e5e7eb;
+	border-radius: 5px;
+	padding: 35px 100px;
+	gap: 100px;
+}
+
+.call-text h2 {
+	margin: 0;
+}
+
+.call-text p {
+	margin: 0;
+}
+
+.call-box button {
+	background-color: #3882f6;
+	font-weight: 700;
+	padding: 10px 30px;
+	color: #f9faf8;
+	border: 2px solid #e5e7eb;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	display: flex;
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding: 20px;
+	justify-content: center;
+}
+
+footer p {
+	margin: 0;
+}
